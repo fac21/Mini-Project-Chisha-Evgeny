@@ -17,39 +17,36 @@
         </div>
 
         <!-- Inserting GIF -->
-       <div id="loader" class="loader"></div>
-       <img class="output-size" id="gif_image">
+        <div id="loader" class="loader"></div>
+        <img class="output-size" id="gif_image">
 
         <!-- Text to Speech -->
         <form class="stack-md">
-        <div class="voiceinator">
+            <div class="voiceinator">
 
-            <h1>Speak To Me</h1>
+                <h1>Speak To Me</h1>
 
-            <select name="voice" id="voices">
+                <select name="voice" id="voices">
           <option value="">Select A Voice</option>
         </select>
 
-            <label for="rate">Rate:</label>
-            <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
+                <label for="rate">Rate:</label>
+                <input name="rate" type="range" min="0" max="3" value="1" step="0.1">
 
-            <label for="pitch">Pitch:</label>
+                <label for="pitch">Pitch:</label>
 
-            <input name="pitch" type="range" min="0" max="2" step="0.1">
-            <textarea name="text">Hello! I love JavaScript 👍</textarea>
-            <button id="stop">Stop!</button>
-            <button id="speak">Speak</button>
+                <input name="pitch" type="range" min="0" max="2" step="0.1">
+                <textarea id="text" name="text"></textarea>
+                <button id="stop">Stop!</button>
+                <button id="speak">Speak</button>
 
-        </div>
-    </form>
+            </div>
+        </form>
 
     </main>
 
-
-
-
-
     <script type="text/javascript" src="script.js"></script>
+    <script src="test.js"></script>
 </body>
 
 </html>
