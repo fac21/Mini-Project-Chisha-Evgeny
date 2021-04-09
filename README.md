@@ -4,7 +4,7 @@ Mini-Project-Chisha-Evgeny
 ## Speech to Text Recognition 🗣️
 We looked through the WesBos Challenges and decided to go with the Speech Recognition project. We decided on this because we wanted to create something with more emphasis on accessibility and make the app more useful for people in everyday life
 
-![](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fsearch%2Forganize-gifs&psig=AOvVaw1Xpd-2W64LOQplKto4Pwye&ust=1618066852877000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiR-_G28e8CFQAAAAAdAAAAABAI)
+![](https://media2.giphy.com/media/3o6Zt6tIum2ZwBzlWE/200.gif)
 
 ## Plan and Action 📝
  - Followed the Kanban Board
