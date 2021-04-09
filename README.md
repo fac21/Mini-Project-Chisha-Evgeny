@@ -21,4 +21,5 @@ We looked through the WesBos Challenges and decided to go with the Speech Recogn
  - Wanted to create more Tests for our code
  - Wanted to include End Typing and Start Typing buttons 
  - Make it mobile responsive
+ - Check for Accessibility for keyboard users and Lighthouse Dev Tool
 
