@@ -9,8 +9,8 @@ We looked through the WesBos Challenges and decided to go with the Speech Recogn
 
 
 ## Plan and Action 📝
- - Followed the Kanban Board
- - Created some User Stories and Issues from previous projects
+ - Followed the Kanban Board. Included A1, A2, A3, A5 and E1, E2, E3 and E5 labels.
+ - Created some User Stories and Issues and linked them to the relates issue number in the commits so it could automatically move to done on the Kanban Board
  - Try and implement some of the things we have already learnt from previous weeks
  - Included a Stretch - Testing our code, well at least one function
 
