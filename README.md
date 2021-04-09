@@ -8,8 +8,13 @@ We looked through the WesBos Challenges and decided to go with the Speech Recogn
 
 ## Plan and Action 📝
  - Followed the Kanban Board
- - Created some User Stories and Issues
- - Try and implement some of the things we have already learnt
- - Included a Stretch - Testing our code 
+ - Created some User Stories and Issues from previous projects
+ - Try and implement some of the things we have already learnt from previous weeks
+ - Included a Stretch - Testing our code, well at least one function
 
 ![](https://media.tenor.com/images/5283f530ead707d7f747262d632be43a/tenor.gif)
+
+## Woulda Coulda Shoulda
+ - Wanted to create more Tests for our code
+ - Wanted to include End Typing and Start Typing buttons 
+ - Make it mobile responsive
