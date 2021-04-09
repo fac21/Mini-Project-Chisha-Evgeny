@@ -14,12 +14,12 @@ const words = document.querySelector('.words');
 words.appendChild(p);
 
 recognition.addEventListener('result', e => {
-    const transcript = Array.from(e.results)           //Convert results of sppech to an array then map over each one
-        .map(result => result[0])                      //mapping over first result of speech
-        .map(result => result.transcript)              //mapping over remaining result of speech
-        .join('')                                      //joining the speech together as a sentence
+    const transcript = Array.from(e.results) //Convert results of sppech to an array then map over each one
+        .map(result => result[0]) //mapping over first result of speech
+        .map(result => result.transcript) //mapping over remaining result of speech
+        .join('') //joining the speech together as a sentence
 
-    p.textContent = transcript;                        //Creating a paragraph of the sppech
+    p.textContent = transcript; //Creating a paragraph of the sppech
     if (e.results[0].isFinal) {
         p = document.createElement('p');
         words.appendChild(p);
@@ -86,28 +86,27 @@ document.querySelector("#speak").addEventListener("click", (event) => {
     const name = formData.get("text");
 
     if (name.length > 0) {
-    fetch(`https://api.giphy.com/v1/gifs/random?api_key=${gif_api_key}&tag=${name}&limit=1`)
+        fetch(`https://api.giphy.com/v1/gifs/random?api_key=${gif_api_key}&tag=${name}&limit=1`)
 
-        .then(document.getElementById("loader").className ="loader-view")
+        .then(document.getElementById("loader").className = "loader-view")
 
         .then((response) => {
-            if (!response.ok) throw new Error(response.status);
-            return response.json();
-        })
-        .then((data) => {
-            image.src = data.data.image_original_url;
-            image.alt = data.data.title;
-            document.getElementById("loader").className = "loader";
-        })
-        .catch((error) => {
-            console.log(error);
-            if (error.message === "404") {
-                image.textContent = `⚠️ Couldn't find ${name}`;
-            } else {
-                image.textContent = "⚠️ Something went wrong";
-            }
-        });
-}
-else alert("Please search for something!");
+                if (!response.ok) throw new Error(response.status);
+                return response.json();
+            })
+            .then((data) => {
+                image.src = data.data.image_original_url;
+                image.alt = data.data.title;
+                document.getElementById("loader").className = "loader";
+            })
+            .catch((error) => {
+                console.log(error);
+                if (error.message === "404") {
+                    image.textContent = `⚠️ Couldn't find ${name}`;
+                } else {
+                    image.textContent = "⚠️ Something went wrong";
+                }
+            });
+    } else alert("Please search for something!");
 
 });
